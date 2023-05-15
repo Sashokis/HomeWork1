@@ -40,3 +40,7 @@ num /= 3;
 num += 1;
 num -= 1;
 alert(num);
+
+// задание 8
+let age = prompt('Сколько вам лет?');
+alert(`Ваш возараст: ${age}`);
