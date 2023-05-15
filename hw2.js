@@ -11,3 +11,12 @@ alert(`${year} год - это год выпуска первого iPhone.`);
 // задание 3
 let  nameJS = 'Брендан Эйх'; 
 alert(`${nameJS} является создателем языка JavaScript`);
+
+// задание 4
+const numberOne = 10;
+const numberTwo = 2;
+let sum = numberOne + numberTwo;
+let diff = numberOne - numberTwo;
+let multiply = numberOne * numberTwo;
+let division = numberOne / numberTwo;
+alert(`Сумма ${sum}, разность ${diff}, произведние ${multiply}, деление ${division}`);
