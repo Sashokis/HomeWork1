@@ -44,3 +44,17 @@ alert(num);
 // задание 8
 let age = prompt('Сколько вам лет?');
 alert(`Ваш возараст: ${age}`);
+
+// задание 9
+let user = {
+    userName:'Петя',
+    userAge: 20, 
+    BisAdmin: true
+};
+
+user.cityOfResidence = 'Москва';
+user["age"] = 22;
+delete user.cityOfResidence;
+
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user[info]);
