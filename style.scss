@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.top{
+    background-image: url(img/bg_fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1024px;   
+}
+
+.header{
+    &__name{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+        width: 789px;   
+        padding-top: 271px;     
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-top: 32px;
+        width: 481px;
+    }
+    &__button{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        font-family: "Montserrat", sans-serif;
+
+        background: #9C0332;
+        border-radius: 30px;
+        width: 234px;
+        height: 48.6px; 
+        box-sizing: border-box;
+        border: none;
+        margin-top: 44px;       
+        &:hover{
+            background: #EB443F;
+            cursor:pointer;
+        }
+    }
+}
+
+.for-box{
+    background-image: url(img/bg_for-box.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 556px; 
+}
+
+.for{
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    &__item{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+        padding-left: 32px;
+
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+        border-radius: 16px;
+        width: 379px;
+        height: 300px;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        transition: all .3s;
+        &:hover{
+            cursor:pointer;
+            transform: scale(1.05);
+            box-shadow: 0 0 5px #44D2FF;           
+        }
+        &_1{
+            background-image: url(img/play1.png);
+        }
+        &_2{
+            background-image: url(img/play2.png);
+            background-repeat: no-repeat;
+        }
+        &_3{
+            background-image: url(img/play3.png);
+        }
+    }  
+}
