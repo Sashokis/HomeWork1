@@ -9,3 +9,7 @@ if (password === check ){
 } else{
     alert('Пароль введен неверно');
 }
+
+//2
+const c = 2;
+(c > 0 && c < 10) ? (console.log('Верно')) : (console.log('Неверно'));
