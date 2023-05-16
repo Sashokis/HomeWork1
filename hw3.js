@@ -13,3 +13,8 @@ if (password === check ){
 //2
 const c = 2;
 (c > 0 && c < 10) ? (console.log('Верно')) : (console.log('Неверно'));
+
+//3 
+const d = 2;
+const e = 102;
+(d > 100 || e > 100) ? (console.log('Верно')) : (console.log('Неверно'));
