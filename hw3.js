@@ -18,3 +18,11 @@ const c = 2;
 const d = 2;
 const e = 102;
 (d > 100 || e > 100) ? (console.log('Верно')) : (console.log('Неверно'));
+
+//4
+let a = '2';
+let b = '3';
+e = Number(b);
+b = Number(a);
+a = e;
+alert (a+b);
