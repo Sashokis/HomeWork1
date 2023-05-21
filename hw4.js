@@ -13,13 +13,23 @@
 //     console.log(i);
 // }
 
-//4
-const obj ={
-    'Коля': 200,
-    'Вася': 300, 
-    'Петя': 400
-};
+// //4
+// const obj ={
+//     'Коля': 200,
+//     'Вася': 300, 
+//     'Петя': 400
+// };
 
-for (let name in obj) {
-    alert(`${name} - зарплата ${obj[name]} долларов.`);
+// for (let name in obj) {
+//     alert(`${name} - зарплата ${obj[name]} долларов.`);
+// }
+
+//5
+let n = 1000;
+let num = 0;
+while (n >= 50) {
+   n = n/2;
+   num++;
 }
+console.log('Количсево итераций равно ' + num);
+
