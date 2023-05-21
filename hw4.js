@@ -24,12 +24,19 @@
 //     alert(`${name} - зарплата ${obj[name]} долларов.`);
 // }
 
-//5
-let n = 1000;
-let num = 0;
-while (n >= 50) {
-   n = n/2;
-   num++;
-}
-console.log('Количсево итераций равно ' + num);
+// //5
+// let n = 1000;
+// let num = 0;
+// while (n >= 50) {
+//    n = n/2;
+//    num++;
+// }
+// console.log('Количсево итераций равно ' + num);
 
+//6
+let friday = 5;
+let day = friday;
+while(day <= 31) {
+    console.log("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");
+    day += 7;
+}
