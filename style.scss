@@ -1,3 +1,6 @@
+@import 'mobile';
+
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +32,7 @@ body {
         line-height: 78px;
         color: #FFFFFF;
         width: 789px;   
-        padding-top: 271px;     
+        padding-top: 217px;     
     }
     &__text{
         font-style: normal;
@@ -109,3 +112,4 @@ body {
         }
     }  
 }
+@import 'mobile';

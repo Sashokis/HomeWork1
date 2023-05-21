@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__name{
+            font-size: 32px;
+            padding-top: 239px;  
+            width: 343px;
+            text-align: center;
+            line-height: 39px;
+        }
+        &__text{
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+            width: 343px;
+        }
+        &__button{
+            margin-top: 32px;
+
+        }
+    }
+
+    .for-box{
+        height: 1221px; 
+    }
+
+    .for{
+        display: grid;
+        &_item{
+            width: 343px;
+            &:hover{
+                cursor:pointer;
+                transform: scale(1.0);         
+            }        
+        }
+    }
+}
