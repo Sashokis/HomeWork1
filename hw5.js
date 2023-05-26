@@ -34,3 +34,17 @@ function degree(num) {
 }
 
 alert(degree(5));
+
+//4
+function howOld() {
+    let age = prompt(`Сколько вам лет?`);
+    if (age < 0) {
+        alert('Вы ввели неправильное значение');
+    } else if((age => 0) && (age < 13)){
+        alert('Привет, друг!');
+    } else {
+        alert('Добро пожаловать!');
+    }
+}
+
+howOld();
