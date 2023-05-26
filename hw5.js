@@ -20,3 +20,17 @@ function check(number) {
 }
 
 alert(check(5));
+
+// 3.1
+function degree(num) {
+    console.log(num**2);
+}
+
+degree(4);
+
+// 3.2
+function degree(num) {
+    return num**2;
+}
+
+alert(degree(5));
