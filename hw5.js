@@ -9,3 +9,14 @@ function compare(one, two) {
 }
 
 alert(compare(6,6));
+
+// 2
+function check(number) {
+    if (number % 2 == 0) {
+        return `Число ${number} четное`;
+    } else { 
+        return `Число ${number} нечетное`
+    }
+}
+
+alert(check(5));
