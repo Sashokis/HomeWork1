@@ -62,3 +62,16 @@ function checkNum() {
 }
 
 checkNum();
+
+// 6
+function exponentiation() {
+    let num = Number(prompt('Введите число'));
+
+    if (typeof num !== 'number' || isNaN(num)) {
+        alert('Переданный параметр не является числом');
+    } else {
+        alert(`${num} в кубе равняется  ${num ** 3}`);
+    }
+}
+
+exponentiation();
