@@ -48,3 +48,17 @@ function howOld() {
 }
 
 howOld();
+
+// 5 
+function checkNum() {
+    let oneNum = Number(prompt('Введите первое число'));
+    let twoNum = Number(prompt('Введите второе число'));
+
+    if (typeof oneNum !== 'number' || typeof twoNum !== 'number' || isNaN(oneNum) ||  isNaN(twoNum)) {
+        alert('Одно или оба значения не являются числом');
+    } else {
+        alert(`Произведение чисел равно ${oneNum * twoNum}`);
+    }
+}
+
+checkNum();
