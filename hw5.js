@@ -75,3 +75,29 @@ function exponentiation() {
 }
 
 exponentiation();
+
+// 7
+let circle1 = {
+    radius: 4,
+    getArea: function(){
+        return  3.14 * (this.radius**2);
+    },  
+    getPerimeter: function(){
+        return 2  * this.radius * 3.14;
+    }
+};
+
+let circle2 = {
+    radius: 7,
+    getArea: function(){
+        return  3.14 * (this.radius**2);
+    },  
+    getPerimeter: function(){
+        return 2  * this.radius * 3.14;
+    }
+};
+
+alert(circle1.getArea());
+alert(circle1.getPerimeter());
+alert(circle2.getArea());
+alert(circle2.getPerimeter());
