@@ -5,25 +5,26 @@ function seasons() {
         case 1:
         case 2:
         case 12:
-            console.log('Зима!');
+            alert('Это зима!');
             break;
         case 3:
         case 4:
         case 5:
-            console.log('Весна!');    
+            alert('Это весна!');    
             break;
         case 6:
         case 7:
         case 8:
-            console.log('Лето!');    
+            alert('Это лето!');    
             break;
         case 9:
         case 10:
         case 11:
-            console.log('Осень!');    
+            alert('Это осень!');    
             break;    
         default :
             alert('Что-то совсем не то');
             break;
     }
 }
+
