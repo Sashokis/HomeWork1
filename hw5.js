@@ -1,10 +1,9 @@
 // 1
-let answer =0;
 function compare(one, two) {
     if (one <= two) {
-        return answer = one;
+        return  one;
     } else { 
-        return answer = two;
+        return two;
     }
 }
 
