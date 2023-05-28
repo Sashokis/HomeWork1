@@ -53,7 +53,7 @@ function checkNum() {
     let oneNum = Number(prompt('Введите первое число'));
     let twoNum = Number(prompt('Введите второе число'));
 
-    if (typeof oneNum !== 'number' || typeof twoNum !== 'number' || isNaN(oneNum) ||  isNaN(twoNum)) {
+    if (isNaN(oneNum) ||  isNaN(twoNum)) {
         alert('Одно или оба значения не являются числом');
     } else {
         alert(`Произведение чисел равно ${oneNum * twoNum}`);
@@ -66,7 +66,7 @@ checkNum();
 function exponentiation() {
     let num = Number(prompt('Введите число'));
 
-    if (typeof num !== 'number' || isNaN(num)) {
+    if (isNaN(num)) {
         alert('Переданный параметр не является числом');
     } else {
         alert(`${num} в кубе равняется  ${num ** 3}`);
