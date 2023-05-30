@@ -34,3 +34,11 @@ for (let i of masBig){
     }
     break;
 }
+
+// 5
+let mas5 = [1, 1, 1];
+for (let i = 0; i <= 2; i++){
+    mas5.push(2);
+}
+console.log(mas5);
+
