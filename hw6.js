@@ -100,3 +100,14 @@ console.log(arr);
   
   degree(mas11);
   
+// 12
+ arrWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+ function getLength (arr){
+     let lengthWords = [];
+     for (let index = 0; index < arr.length; index++) {
+         lengthWords.push(arr[index].length);
+     }
+     console.log(lengthWords);
+ }
+ 
+ getLength(arrWords);
