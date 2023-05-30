@@ -65,3 +65,12 @@ let mas8 = 'abcdef';
 mas8 = mas8.split('');
 mas8.reverse();
 console.log(mas8);
+
+// 9 
+const masBig9 = [
+    [1, 2, 3],
+    [4, 5, 6],
+]
+
+let arr = masBig9.flat();
+console.log(arr);
