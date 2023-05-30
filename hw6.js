@@ -20,3 +20,17 @@ for (let item of mas){
 let mas3 = [1, 3, 5, 10, 20];
 mas3 = mas3.join(' ');
 console.log(mas3);
+
+// 4 
+let masBig = [
+    [1, 1, 1],
+    [1, 1, 1],
+    [1, 1, 1],
+]
+
+for (let i of masBig){
+    for (let j of masBig) {
+        console.log(j);
+    }
+    break;
+}
