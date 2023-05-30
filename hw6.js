@@ -74,3 +74,15 @@ const masBig9 = [
 
 let arr = masBig9.flat();
 console.log(arr);
+
+ // 10
+ const mas10 = [2, 5, 1, 10, 8];
+ for (let i = 0; i <= mas10.length; i++) {
+     let sum = 0 ;
+     if (mas10[i+1] > 0){
+         sum = mas10[i] + mas10[i+1];
+     } else {
+         sum = mas10[i];
+     }
+     console.log(sum);
+ }
