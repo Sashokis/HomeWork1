@@ -111,3 +111,17 @@ console.log(arr);
  }
  
  getLength(arrWords);
+
+// 13
+function filterPositive(array) {
+    let negativeValue = [];
+    for (let index = 0; index < array.length; index++) {
+        if (array[index] < 0){
+            negativeValue.push(array[index])
+        }        
+    }    
+    console.log(negativeValue);
+}
+  
+filterPositive([-1, 0, 5, -10, 56]); // => [-1, -10]
+filterPositive([-25, 25, 0, -1000, -2]); // => [-25, -1000, -2]
