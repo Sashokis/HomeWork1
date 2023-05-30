@@ -42,3 +42,8 @@ for (let i = 0; i <= 2; i++){
 }
 console.log(mas5);
 
+//6
+let mas6 = [9, 8, 7, 'a', 6, 5];
+mas6.sort();
+mas6.pop();
+console.log(mas6);
