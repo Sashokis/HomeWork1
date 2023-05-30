@@ -59,3 +59,9 @@ if (search === true){
 } else {
     alert('Вашего числа нет в массиве');
 } 
+
+// 8
+let mas8 = 'abcdef';
+mas8 = mas8.split('');
+mas8.reverse();
+console.log(mas8);
