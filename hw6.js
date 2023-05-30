@@ -15,3 +15,8 @@ for (let item of mas){
         break;
     }
 }
+
+// 3
+let mas3 = [1, 3, 5, 10, 20];
+mas3 = mas3.join(' ');
+console.log(mas3);
