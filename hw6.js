@@ -86,3 +86,17 @@ console.log(arr);
      }
      console.log(sum);
  }
+
+  // 11
+  const mas11 = [1, 2, 3, 4, 5];
+  function degree(arr) {
+      let newArr = [];
+      for (let index = 0; index < arr.length; index++) {
+          // newArr[index] = arr[index] ** 2;
+          newArr.push(arr[index] ** 2);
+      }
+      console.log(newArr);
+  }
+  
+  degree(mas11);
+  
