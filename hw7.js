@@ -37,3 +37,15 @@ console.log(Math.round(number));
  }
 
  findRandom();
+
+ // 6 
+ 
+ function getRandomArrNumbers(number){
+    let arr = [];
+    for (let i = 0; i < (Math.floor(number/2)); i++) {
+        arr.push(Math.round(Math.random() * number ));    
+    }
+    console.log(arr);
+ }
+
+ getRandomArrNumbers(Number(prompt('Введите число')));
