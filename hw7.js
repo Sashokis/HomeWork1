@@ -61,3 +61,7 @@ console.log(Math.round(number));
  }
 
  getRandomNumber(9,2);
+
+ // 8
+ let date = new Date();
+ console.log(date);
