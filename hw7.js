@@ -49,3 +49,15 @@ console.log(Math.round(number));
  }
 
  getRandomArrNumbers(Number(prompt('Введите число')));
+
+ // 7
+ function getRandomNumber(oneNum, twoNum) {
+    if (oneNum >= twoNum) {
+        let num = oneNum;
+        oneNum = twoNum;
+        twoNum = num;
+    }
+    console.log(Math.round(Math.random() * (twoNum - oneNum)) + oneNum);    
+ }
+
+ getRandomNumber(9,2);
