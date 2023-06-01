@@ -18,3 +18,10 @@ function searchStart (arr, nameSt){
 }
 
 searchStart(arrString, nameString);
+
+
+// 3
+const number = 32.58884;
+console.log(Math.floor(number));
+console.log(Math.ceil(number));
+console.log(Math.round(number));
