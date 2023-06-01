@@ -25,3 +25,8 @@ const number = 32.58884;
 console.log(Math.floor(number));
 console.log(Math.ceil(number));
 console.log(Math.round(number));
+
+//4
+ const arrNumber = [52, 53, 49, 77, 21, 32];
+ console.log(Math.max(...arrNumber));
+ console.log(Math.min(...arrNumber));
