@@ -65,3 +65,8 @@ console.log(Math.round(number));
  // 8
  let date = new Date();
  console.log(date);
+
+ // 9 
+  let currentDate = new Date();
+  currentDate.setDate(72);
+  console.log(currentDate);
