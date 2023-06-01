@@ -30,3 +30,10 @@ console.log(Math.round(number));
  const arrNumber = [52, 53, 49, 77, 21, 32];
  console.log(Math.max(...arrNumber));
  console.log(Math.min(...arrNumber));
+
+ // 5 
+ function findRandom(){
+    console.log(Math.round(Math.random()*10));
+ }
+
+ findRandom();
