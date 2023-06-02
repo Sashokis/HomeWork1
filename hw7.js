@@ -70,3 +70,23 @@ console.log(Math.round(number));
   let currentDate = new Date();
   currentDate.setDate(72);
   console.log(currentDate);
+
+  // 10
+  const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+  const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+                  "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+  let myDate = new Date();
+  let hour = myDate.getHours(); 
+  let minute = myDate.getMinutes(); 
+  let second = myDate.getSeconds();
+                  
+  if (minute < 10) { 
+	minute = "0" + minute; 
+  }
+  if (second < 10) { 
+	second = "0" + second; 
+  }
+
+  let fullDate = "Сегодня: " + myDate.getDate() + " " + months[myDate.getMonth()] + 
+    " " + myDate.getFullYear() + ', ' + days[myDate.getDay()] + ", текущее время: " + myDate.getHours() + ":" + minute + ":" + second ; 
+  console.log(fullDate);
