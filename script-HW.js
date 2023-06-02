@@ -28,3 +28,18 @@ function seasons() {
     }
 }
 
+function memorizeWords() {
+    let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    list = list.sort(() => Math.random() - 0.5);
+    alert(list);
+    oneWord = prompt('Какое слово было первыйм ?');
+    lastWord = prompt('Какое слово было последним ?');
+    if ((oneWord.toUpperCase() === list[0].toUpperCase()) && (lastWord.toUpperCase() === list[6].toUpperCase())) {
+        alert('Поздравляю! Вы угадали оба слова.');
+    } else if ((oneWord.toUpperCase() === list[0].toUpperCase()) || (lastWord.toUpperCase() === list[6].toUpperCase())){
+        alert('Вы были близки к победе!');
+    } else{
+        alert('Ой! Вы ответили не верно. Попробуйте еще раз!')
+    }
+}
+
