@@ -43,11 +43,15 @@ function filter(arr, ruleFunction) {
 
 console.log(filter([3, -4, 1, 9], isPositive)); 
 
-const people = [
+const people2 = [
     {name: 'Глеб', gender: 'male'},
     {name: 'Анна', gender: 'female'},
     {name: 'Олег', gender: 'male'},
     {name: 'Оксана', gender: 'female'}
 ];
 
-console.log(filter(people, isMale)); 
+console.log(filter(people2, isMale)); 
+
+// 3
+let timerId = setInterval(() => console.log(new Date()), 3000);
+setTimeout(() => { clearInterval(timerId); console.log('30 секунд прошло'); }, 30*1000);
