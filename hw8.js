@@ -55,3 +55,13 @@ console.log(filter(people2, isMale));
 // 3
 let timerId = setInterval(() => console.log(new Date()), 3000);
 setTimeout(() => { clearInterval(timerId); console.log('30 секунд прошло'); }, 30*1000);
+
+// 4
+function delayForSecond(callback) {
+    setTimeout(callback, 1000*1);
+}
+
+delayForSecond(function () {
+  console.log('Привет, Глеб!');
+})
+
